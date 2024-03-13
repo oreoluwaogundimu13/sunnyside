@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow-div {
+    position: relative;
+    width: 5% !important;
+}
+
+.arrow-div img {
+    position: absolute;
+    top: 12rem;
+}
+
+.heading {
+    transform: translateY(4rem);
+    letter-spacing: 5px;
+
+}
+.boxes div {
+    height: 28rem;
+    
+
+}
+.boxes div:nth-child(1) {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 7rem;
+    
+
+}
+.boxes div:nth-child(1) h1 {
+    font-weight: 700;
+}
+.boxes div:nth-child(1) h4 {
+    position: relative;
+}
+.boxes div:nth-child(1) h4::after{
+     content: "";
+     position: absolute;  
+      width: 7rem;
+      height: 0.5rem;
+      background-color: yellow;
+      bottom: -7px;
+      left: 0;
+}
+.boxes div:nth-child(1)h4:hover::after {
+    transform: scaleX(1.5);
+    transition: all 1s;
+}
+.boxes div:nth-child(2) {
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxes div:nth-child(3) {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxes div:nth-child(4) {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 7rem;
+}
+.boxes div:nth-child(4) h4 {
+    position: relative;
+}
+.boxes div:nth-child(4)h4::after {
+    content: "";
+    position: absolute;  
+     width: 7rem;
+     height: 0.5rem;
+     background-color: red;
+     bottom: -7px;
+     left: 0;
+}
+.boxes div:nth-child(4)h4:hover::after {
+    transform: scaleX(1.5);
+    transition: all 2s;
+}
+.boxes div:nth-child(5) {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.boxes div:nth-child(6) {
+    background-image: url(./images/desktop/image-photography.jpg);
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8rem;
+    letter-spacing: 5px;
+    color: rgb(180, 180, 180);
+    font-weight: 700;
+}
+
+
+ .box div {
+     width: 25%;
+     text-align: center;
+     margin: 2rem;
+     position: relative;
+
+     
+     
+} 
+.box div img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
+.box div p {
+    padding-top: 50px;
+    color: rgb(94, 92, 92);
+    font-weight: 600;
+}
+.box div h4 {
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 20px;
+    
+    
+}
+.box div h5 { 
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(165, 164, 164);
+}
